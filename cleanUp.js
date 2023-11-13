@@ -8,37 +8,52 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
+function askUserForname () {
+  console.log("Hey there, what is your name?") 
+ }
 
-askForName()
+askUserForname()
+// In this improvenment i changed the functions name to 'askUserName' to be more specific, and changed console.log statement to be a direct question, and added 'Hey' informal language to make it more engaging.
 
 
 // EX 2:
-function addThreeNums(first, second, third) {
-var sum = first + second + third
+function addThreeNums(num1, num2, num3) {
+let sum = num1 + num2 + num3
 return sum;
-      }
+     }
 
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
+let result1 = addThreeNums(3, 7, 20);
+console.log(Result1 = addThreeNums(3, 7, 20))
+
+// in this improvenment i used 3, 7, 20. I changed the number to personal numbers to me, and i used ''let'' to declare the variables explicity and to make it more modern.
+
 
 
 // EX 3:
-func makeFreshPesto(){
-  console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
-  console.log("Pulse basil and pine nuts");
-  console.log("Add garlic and cheeses");
-  console.log("Slowly pour in oil");
-  console.log("Season");    }
+function makeFreshPesto(){
+
+ console.log("Have ready your: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
+ console.log("- Add basil and pine nuts in the quantity if fits best to your taste");
+ console.log("- Add garlic and cheeses as your wish");
+ console.log("- Slowly pour in olive oil");
+ console.log("- Sesoning time! Add seasoning as your taste it");    }
 
 makeFreshPesto();
 
 
-//  EX 4:
-function average(num1, num2) 
-  {
-var sum = num1 + num2;
-    var avg = sum / 2;
 
-return avg
-  }
+
+
+
+//  EX 4:
+function calculateAverage(number1, number2) 
+ {
+var sum = number1 + number2;
+   var average = sum / 2;
+
+return average
+
+ }
+
+ var result = calculateAverage(15,21)
+ console.log("The average age that uses TikTok the most: ",  result)
