@@ -52,5 +52,5 @@ var colorsArray2 = ["green", "yellow", "orange"]
 //colorsArray1[0] returns "purple" and the built-In method startsWith checks whether starts with the "p"
 console.log(colorsArray1[0].startsWith("p"))
 //colorsArray2[1].startsWith "y" will check if the color in position 1 starts with "y" and should return true.
-console.log(colorsArray2[1].startsWith("y"))
+console.log(colorsArray2[1].endsWith("w"))
 
