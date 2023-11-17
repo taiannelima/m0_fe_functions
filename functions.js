@@ -19,7 +19,12 @@ function greeting() {
       }
   var JohnGreeting = customGreeting("John"); 
   console.log(JohnGreeting);
-  
+
+ function customGreeting(name) {
+    return "Hello, dear Rachel ";
+      }
+ var  RachelGreeting = customGreeting("Rachel");
+ console.log(RachelGreeting); 
   
   
   // 3: Write a function named greetPerson that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
@@ -32,7 +37,19 @@ function greeting() {
   
   var fullGreeting = greetPerson();
   console.log(fullGreeting);
+
+
+
+ function greetPerson(firstName, middleName, lastName) {
+    return "Hello, dear " + "Rachel Soae" +  " Prather " + "!" ;
   
+  }
+  
+  var fullGreeting = greetPerson();
+  console.log(fullGreeting);
+
+
+
   
   // 4: Write a function named square that takes in one number, and returns the square of that number.
   // BONUS: Print a sentence that interpolates the return value of your square function.
@@ -41,7 +58,6 @@ function greeting() {
     return number * number;
   }
   console.log(square(7));  
-  
   
   
   
@@ -58,4 +74,37 @@ function greeting() {
   checkStock(3, "Tortillas");
   checkStock(0, "Cheese");
   checkStock(1, "Salsa");
+
+
+
+function square(number) {
+  return number * number;
+}
+console.log(square(5));
+
+function checkPastryIngredients(bread, butter, milk, flour) {
+
+  if (quantity === 0) {
+    console.log(`${item} - OUT of stock!`);
+  } else if (quantity <= 2) {
+    console.log(`${item} - running LOW`);
+  } else {
+    console.log(`${item} is stocked`);
+  }
+}
+ checkStock(0, "Bread");
+  checkStock(0, "Butter");
+  checkStock(0, "Milk");
+  checkStock(0, "Flour");
+
+
+
+
+
+
+
+
+
+
+
   
